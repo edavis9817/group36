@@ -8,6 +8,16 @@ body {
   src: url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap') format('truetype');
 }
 
+.center-text {
+      text-align: center;
+      margin: auto;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      font-family: "FreeMono", monospace;
+    transform: translate(-50%, -50%);
+    }
+
 header .navbar-collapse .nav {
   display: flex;
   justify-content: center;
