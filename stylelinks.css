@@ -55,10 +55,12 @@ header .navbar-collapse .nav li a {
   color: #FEA501;
   list-style-type: square;
   margin-bottom: 1em;
+  font-family: "FreeMono", monospace;
 }
 
 .bullet-points a {
   color: #FEA501;
   text-decoration: none;
+  font-family: "FreeMono", monospace;
 }
 
