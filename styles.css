@@ -21,28 +21,23 @@ body .center-text {
       transform: translate(-50%, -50%);
     }
 
-.animated-text {
-  animation: grow-shrink 2s ease-in-out infinite;
-  text-align: center;
-  margin: auto;
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  font-family: "FreeMono", monospace;
-   color: #FEA501;
-   text-shadow: 2px 2px #5AACDB;
-}
-
-@keyframes grow-shrink {
+@keyframes growShrink {
   0% {
-    font-size: 20px;
+    transform: scale(1);
   }
   50% {
-    font-size: 40px;
+    transform: scale(1.5);
   }
   100% {
-    font-size: 20px;
+    transform: scale(1);
   }
+}
+
+h1 {
+  animation: growShrink 3s ease-in-out infinite;
+  color: #FEA501; /* Change this to desired color */
+  text-align: center;
+  font-family: "FreeMono", monospace;
 }
 
 header .navbar-collapse .nav {
