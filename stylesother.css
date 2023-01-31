@@ -38,8 +38,8 @@ header .navbar-collapse .nav li a {
 }
 
 .smaller-text {
-  font-size: 32px;
   color: #FEA501;
+  font-size: 32px;
   font-family: "FreeMono", monospace;
 }
 
