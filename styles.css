@@ -3,6 +3,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-header ul a {
+
+header .navbar-collapse .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+header .navbar-collapse .nav li {
+  flex: 1;
+  text-align: center;
+  list-style-type: none;
+}
+
+header .navbar-collapse .nav li a {
   color: #FEA501;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
 }
