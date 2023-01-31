@@ -27,14 +27,15 @@
       </div>
     </nav>
 </header>
-</body>
 
-<div class="container">
-  <h1 class="animated-text">Group 36 - Bitcoinless</h1>
-</div>
-
-</body>
-
+<div id="fadingText" class="center-text">Group 36</div>
+<script>
+    const fadingText = document.getElementById("fadingText");
+  
+  setInterval(() => {
+    fadingText.style.display = fadingText.style.display === "none" ? "block" : "none";
+  }, 2000);
+</script>
 </html>
 
  
