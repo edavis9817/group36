@@ -34,7 +34,7 @@ header .navbar-collapse .nav li {
 header .navbar-collapse .nav li a {
   color: #FEA501;
   display: block;
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
   font-family: "FreeMono", monospace;
 }
