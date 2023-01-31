@@ -38,6 +38,11 @@ h1 {
   color: #FEA501; /* Change this to desired color */
   text-align: center;
   font-family: "FreeMono", monospace;
+  position: absolute;
+      top: 25%;
+      left: 50%;
+  text-shadow: 2px 2px #5AACDB;
+  font-size: 68px;
 }
 
 header .navbar-collapse .nav {
