@@ -17,7 +17,7 @@ body .center-text {
       font-family: "FreeMono", monospace;
       font-size: 48px;
       color: #FEA501;
-      text-shadow: 1px 1px white;
+      text-shadow: 2px 2px #5AACDB;
       transform: translate(-50%, -50%);
     }
 
