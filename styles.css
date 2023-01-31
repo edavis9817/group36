@@ -1,7 +1,11 @@
 body {
     background-image: url(Untitled-1.jpg); 
-    background-repeat: no-repeat;
     background-size: cover;
+} 
+
+@font-face {
+  font-family: "FreeMono";
+  src: url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap') format('truetype');
 }
 
 header .navbar-collapse .nav {
@@ -22,4 +26,5 @@ header .navbar-collapse .nav li a {
   display: block;
   padding: 15px;
   text-decoration: none;
+  font-family: "FreeMono", monospace;
 }
