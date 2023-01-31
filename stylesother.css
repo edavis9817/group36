@@ -65,10 +65,6 @@ header .navbar-collapse .nav li a {
   text-align: center;
   color: #FEA501;
   font-size: 62px;
-  margin: auto;
-  position: absolute;
-  top: 15%;
-  left: 50%;
   font-family: "FreeMono", monospace;
 }
 
