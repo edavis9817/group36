@@ -40,20 +40,19 @@ header .navbar-collapse .nav li a {
   color: #FEA501;
 }
 
-  .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-    grid-gap: 10px;
-  }
+ .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
 
-  .item {
-    text-align: center;
-  }
+.grid-item {
+  text-align: center;
+}
 
-  img {
-    width: 100%;
-    height: auto;
-  }
+img {
+  width: 100%;
+}
 
 
