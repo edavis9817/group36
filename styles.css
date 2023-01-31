@@ -21,6 +21,22 @@ body .center-text {
       transform: translate(-50%, -50%);
     }
 
+.animated-text {
+  animation: grow-shrink 2s ease-in-out infinite;
+}
+
+@keyframes grow-shrink {
+  0% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 40px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
 header .navbar-collapse .nav {
   display: flex;
   justify-content: center;
