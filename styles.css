@@ -14,12 +14,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 200px;
 }
 
 .animated-text {
   font-size: 60px;
   color: #FEA501;
+  font-family: "FreeMono", monospace;
   animation: growAndShrink 4s ease-in-out infinite;
   text-align: center;
 }
