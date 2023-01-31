@@ -29,3 +29,14 @@ header .navbar-collapse .nav li a {
   text-decoration: none;
   font-family: "FreeMono", monospace;
 }
+
+.additional-text {
+  text-align: center;
+  color: #FEA501;
+}
+
+.smaller-text {
+  font-size: 12px;
+  color: #FEA501;
+}
+
