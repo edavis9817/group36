@@ -21,6 +21,7 @@ body {
   font-size: 60px;
   color: #FEA501;
   font-family: "FreeMono", monospace;
+  text-shadow: 2px 2px #5AACDB;
   animation: growAndShrink 4s ease-in-out infinite;
   text-align: center;
 }
