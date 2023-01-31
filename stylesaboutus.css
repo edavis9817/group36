@@ -51,6 +51,10 @@ header .navbar-collapse .nav li a {
   text-align: center;
 }
 
+.text-below-image {
+  color: #FEA501; /* Change to desired color */
+}
+
 img {
   width: 30%;
   height: auto;
