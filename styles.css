@@ -8,34 +8,18 @@ body {
   src: url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap') format('truetype');
 }
 
-.container {
-  text-align: center;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  height: 200px;
-}
-
-.animated-text {
-  font-size: 60px;
-  color: #FEA501;
-  font-family: "FreeMono", monospace;
-  text-shadow: 2px 2px #5AACDB;
-  animation: growAndShrink 4s ease-in-out infinite;
-  text-align: center;
-}
-
-@keyframes growAndShrink {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+body .center-text {
+      text-align: center;
+      margin: auto;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      font-family: "FreeMono", monospace;
+      font-size: 92px;
+      color: #FEA501;
+      text-shadow: 2px 2px #5AACDB;
+      transform: translate(-50%, -50%);
+    }
 
 header .navbar-collapse .nav {
   display: flex;
