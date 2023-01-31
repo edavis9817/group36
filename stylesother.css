@@ -1,0 +1,43 @@
+body {
+    background-image: url(Untitled-1.jpg); 
+    background-size: cover;
+} 
+
+@font-face {
+  font-family: "FreeMono";
+  src: url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap') format('truetype');
+}
+
+body .center-text {
+      text-align: center;
+      margin: auto;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      font-family: "FreeMono", monospace;
+      font-size: 48px;
+      color: #FEA501;
+      text-shadow: 2px 2px #5AACDB;
+      transform: translate(-50%, -50%);
+    }
+
+header .navbar-collapse .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+header .navbar-collapse .nav li {
+  flex: 1;
+  text-align: center;
+  list-style-type: none;
+}
+
+header .navbar-collapse .nav li a {
+  color: #FEA501;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "FreeMono", monospace;
+}
