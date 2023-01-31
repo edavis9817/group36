@@ -23,6 +23,14 @@ body .center-text {
 
 .animated-text {
   animation: grow-shrink 2s ease-in-out infinite;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-family: "FreeMono", monospace;
+   color: #FEA501;
+   text-shadow: 2px 2px #5AACDB;
 }
 
 @keyframes grow-shrink {
