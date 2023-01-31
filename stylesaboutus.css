@@ -33,15 +33,10 @@ header .navbar-collapse .nav li a {
 .additional-text {
   text-align: center;
   color: #FEA501;
-  font-size: 62px:
+  font-size: 62px;
   font-family: "FreeMono", monospace;
 }
 
-.smaller-text {
-  color: #FEA501;
-  font-size: 32px;
-  font-family: "FreeMono", monospace;
-}
 
  .grid-container {
   display: grid;
